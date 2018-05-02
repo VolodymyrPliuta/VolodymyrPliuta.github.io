@@ -17,4 +17,14 @@ header {
 .ninja {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  text-align: right;
 }
+.banner {
+  margin-top: 2em;
+}
+.samples {
+	color: #7d97ad;
+	font-size: 2em;
+	margin: 1em 0.3em;
+}
+
