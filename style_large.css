@@ -1,5 +1,5 @@
-.container {
-   max-width: 100%;
+.grid-container {
+  max-width: 100%;
 }
 header {
   display: flex;
