@@ -7,6 +7,10 @@ header {
   justify-content: space-between;
   border-bottom: 5px solid #7d97ad
 }
+.logo {
+  max-width: 25vw;
+  overflow-x: hidden;
+}
 
 .title {
   margin-right: 2em;
@@ -14,13 +18,13 @@ header {
 
 .name {
   font-family: 'Text Me One', sans-serif;
-  font-size: 55px;
+  font-size: 16px;
   margin: 0;
 }
 
 .ninja {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   text-align: right;
 }
 
@@ -32,7 +36,11 @@ figcaption {
   color: #2d3c49;
 }
 
-.samples {
+a {
+  color: #2d3c49;
+}
+
+.featured-work {
 	color: #7d97ad;
 	font-size: 2em;
 	margin: 1em 0.3em;
