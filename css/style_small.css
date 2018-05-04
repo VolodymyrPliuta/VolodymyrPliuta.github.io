@@ -38,6 +38,8 @@ figcaption {
 
 a {
   color: #2d3c49;
+  min-width: 48px;
+  min-height: 48px;
 }
 
 .featured-work {
