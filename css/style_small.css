@@ -2,34 +2,30 @@
   max-width: 90%;
 }
 
-header {
-  display: flex;
+.top {
+  flex-wrap: nowrap;
   justify-content: space-between;
-  border-bottom: 5px solid #7d97ad
-}
-.logo {
-  max-width: 25vw;
-  overflow-x: hidden;
+  border-bottom: 3px solid #7d97ad
 }
 
 .title {
-  margin-right: 2em;
-}
-
-.name {
-  font-family: 'Text Me One', sans-serif;
-  font-size: 16px;
-  margin: 0;
-}
-
-.ninja {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  margin: 0em 2em 0em 0em;
   text-align: right;
 }
 
+.name {
+  font-family: 'Text Me One', monospace;
+  font-size: 23px;
+  margin: 16px 0 0 0;
+}
+
+.ninja {
+  font-family: 'Open Sans', monospace;
+  font-size: 14px;
+}
+
 .banner {
-  margin-top: 2em;
+  margin: 1em 0em 0em;
 }
 
 figcaption {
@@ -48,7 +44,9 @@ a {
 	margin: 1em 0.3em;
 }
 
-@charset "UTF-8";
+footer {
+  border-bottom: 5px solid #7d97ad;
+}
 
 .rounded-social-buttons {
   text-align: center;
@@ -109,7 +107,7 @@ a {
 }
 
 .rounded-social-buttons .social-button.youtube {
-  background: #bb0000;
+  background: #b00;
 }
 
 .rounded-social-buttons .social-button.youtube:before {
@@ -118,13 +116,13 @@ a {
 }
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
-  color: #bb0000;
+  color: #b00;
   background: #fefefe;
-  border-color: #bb0000;
+  border-color: #b00;
 }
 
 .rounded-social-buttons .social-button.github {
-  background: #000000;
+  background: #000;
 }
 
 .rounded-social-buttons .social-button.github:before {
@@ -133,7 +131,18 @@ a {
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
-  color: #000000;
+  color: #000;
   background: #fefefe;
-  border-color: #000000;
+  border-color: #000;
+}
+
+@media screen and (max-width: 430px) {
+  .name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 21px 0 0 0;
+  }
+  .title {
+    margin: 0;
+  }
 }
