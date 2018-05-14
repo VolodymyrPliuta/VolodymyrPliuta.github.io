@@ -7,7 +7,7 @@ Required any modern web browser
 
 ### Getting started
 
-Type https://github.com/VolodymyrPliuta/VolodymyrPliuta.github.io.git in your browser and press Enter
+Type [VolodymyrPliuta.github.io](https://volodymyrpliuta.github.io/) in your browser and press Enter
 
 ### instalation
 
