@@ -28,6 +28,16 @@
   margin: 2em 0em 0em;
 }
 
+section {
+   padding-right: .9375rem;
+   padding-left: .9375rem;
+ }
+
+.slick-prev:before, .slick-next:before {
+  color: #d1d6d0;
+  font-size: 70px;
+}
+
 figcaption {
   color: #2d3c49;
 }
@@ -128,4 +138,14 @@ a {
   color: #000;
   background: #fefefe;
   border-color: #000;
+}
+
+.slick-next {
+  z-index: 999;
+  right: 65px;
+}
+
+.slick-prev {
+  z-index: 999;
+  left: 20px;
 }

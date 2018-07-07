@@ -7,9 +7,12 @@
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%7CText+Me+One">
+  <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
   <link rel="stylesheet" media="screen and (min-width: 725px)" href="css/style_large.css">
   <link rel="stylesheet" media="screen and (max-width: 724px)" href="css/style_small.css">
 </head>
@@ -33,9 +36,36 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="grid-x grid-margin-x grid-padding-x">
-			<p class="featured-work cell large-12 small-12">Featured Work</p>
+  </div>
+	<p class="featured-work cell large-12 small-12">Featured Work</p>
+  <div class="center">
+      <section class="cell large-4 medium-12 small-12">
+        <figure>
+          <img class="works" src="img/web-profile.png" alt="web resume">
+          <figcaption class="text-center">
+            <h2>Web Profile</h2>
+            <a href="http://volodymyr.tk/">volodymyr.tk</a>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="cell large-4 medium-12 small-12">
+        <figure>
+          <img class="works" src="img/blog.png" alt="my blog">
+          <figcaption class="text-center">
+            <h2>Blog</h2>
+            <a href="http://americanman.tk">americanman.tk</a>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="cell large-4 medium-12 small-12">
+        <figure>
+          <img class="works"  src="img/landscaping.png" alt="landscaping commercial site">
+          <figcaption class="text-center">
+            <h2>Landscaping</h2>
+            <a href="http://middleburg.tk">middleburg.tk</a>
+          </figcaption>
+        </figure>
+      </section>
       <section class="cell large-4 medium-12 small-12">
         <figure>
           <img class="works" src="img/web-profile.png" alt="web resume">
@@ -75,6 +105,12 @@
 	</div>
   <script>
     $(document).foundation();
+    $('.center').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
   </script>
 </body>
 
